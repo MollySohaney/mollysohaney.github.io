@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Molly's CTF Write-Ups</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    article {
+      background: #fff;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      margin-top: 0;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background: #eee;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Molly's CTF Write-Ups</h1>
+    <p>Walkthroughs, solutions, and notes from practice challenges</p>
+  </header>
+
+  <main>
+    <article>
+      <h2>Challenge 1: Example Hash Crack</h2>
+      <p><strong>Description:</strong> A simple MD5 hash was given and needed to be cracked with a wordlist.</p>
+      <p><strong>Solution:</strong> Used <code>hashcat</code> with the rockyou.txt wordlist. Found plaintext: <code>letmein</code>.</p>
+    </article>
+
+    <article>
+      <h2>Challenge 2: Web Exploit Demo</h2>
+      <p><strong>Description:</strong> A login page vulnerable to SQL injection.</p>
+      <p><strong>Solution:</strong> Tested payload <code>' OR '1'='1</code> to bypass authentication.</p>
+    </article>
+
+    <!-- Add more <article> blocks for each new write-up -->
+  </main>
+
+  <footer>
+    &copy; 2025 Molly Sohaney — Built with ❤️ on GitHub Pages
+  </footer>
+</body>
+</html>
