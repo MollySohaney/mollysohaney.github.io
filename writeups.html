@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>About Me | Molly's CTF Write-Ups</title>
+  <title>Write-Ups | Molly's CTF Site</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -37,6 +37,13 @@
       margin: 2rem auto;
       padding: 1rem;
     }
+    article {
+      background: #fff;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
     footer {
       text-align: center;
       padding: 1rem;
@@ -56,11 +63,21 @@
   </header>
 
   <main>
-    <h2>About Me</h2>
-    <p>Hello! I'm Molly, a computer science student passionate about cybersecurity and CTFs. 
-    This site is a collection of my write-ups, notes, and thoughts as I explore capture-the-flag challenges.</p>
+    <h2>CTF Write-Ups</h2>
 
-    <p>Feel free to explore the <a href="writeups.html">write-ups page</a> for solutions and walkthroughs.</p>
+    <article>
+      <h3>Challenge 1: Example Hash Crack</h3>
+      <p><strong>Description:</strong> A simple MD5 hash was given and needed to be cracked with a wordlist.</p>
+      <p><strong>Solution:</strong> Used <code>hashcat</code> with the rockyou.txt wordlist. Found plaintext: <code>letmein</code>.</p>
+    </article>
+
+    <article>
+      <h3>Challenge 2: Web Exploit Demo</h3>
+      <p><strong>Description:</strong> A login page vulnerable to SQL injection.</p>
+      <p><strong>Solution:</strong> Tested payload <code>' OR '1'='1</code> to bypass authentication.</p>
+    </article>
+
+    <!-- Add more <article> blocks as needed -->
   </main>
 
   <footer>
