@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Projects by Molly Sohaney including Elastic SIEM detection labs, TrackMacros, and security resume work."
+    />
+    <title>Molly Sohaney | Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="bg-grid"></div>
+      <div class="bg-glow bg-glow-left"></div>
+      <div class="bg-glow bg-glow-right"></div>
+
+      <header class="page-hero">
+        <nav class="nav">
+          <a class="brand" href="index.html" aria-label="Home">MS</a>
+          <div class="nav-links">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="projects.html">Projects</a>
+            <a class="nav-link" href="writeups.html">Writeups</a>
+            <a class="nav-link nav-cta" href="contact.html">Contact</a>
+          </div>
+        </nav>
+
+        <div class="page-hero-grid">
+          <section class="hero-copy">
+            <p class="badge">Security Labs • Product Work • Resume Projects</p>
+            <h1>PROJECTS</h1>
+            <p class="lede">
+              A mix of public work and resume projects that show detection
+              engineering, product thinking, network analysis, and forensics.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="writeups.html">Read writeups</a>
+              <a class="button button-secondary" href="contact.html">Contact me</a>
+            </div>
+          </section>
+
+          <aside class="hero-panel" aria-label="Projects summary">
+            <div class="panel-topbar">
+              <span class="status-dot"></span>
+              <span>FEATURED WORK</span>
+            </div>
+            <div class="panel-card">
+              <p class="panel-kicker">Highlights</p>
+              <h2>Elastic SIEM, TrackMacros, and forensic labs</h2>
+              <p>
+                My portfolio focuses on work that is easy to explain, easy to
+                verify, and relevant to cybersecurity analyst roles.
+              </p>
+            </div>
+            <div class="panel-stat-grid">
+              <div class="panel-stat">
+                <span>PUBLIC</span>
+                <strong>GitHub and live product links</strong>
+              </div>
+              <div class="panel-stat">
+                <span>LABS</span>
+                <strong>Network, forensics, and crypto exercises</strong>
+              </div>
+              <div class="panel-stat">
+                <span>STYLE</span>
+                <strong>Hands-on, practical, and clearly documented</strong>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </header>
+
+      <main>
+        <section class="section">
+          <div class="section-heading">
+            <p class="eyebrow">Selected projects</p>
+            <h3>Work that shows range across security and software.</h3>
+          </div>
+          <div class="project-grid">
+            <article class="project-card">
+              <p class="project-kicker">01 / Detection Lab</p>
+              <h4>Elastic SIEM Detection Lab</h4>
+              <p>
+                A hands-on lab focused on SIEM detection engineering, alert logic,
+                and practical security experimentation.
+              </p>
+              <a
+                href="https://github.com/MollySohaney/elastic-siem-detection-lab"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Open project
+              </a>
+            </article>
+
+            <article class="project-card">
+              <p class="project-kicker">02 / Product</p>
+              <h4>TrackMacros</h4>
+              <p>
+                A real-world application project that highlights product thinking,
+                implementation, and user-focused delivery.
+              </p>
+              <a href="https://www.trackmacros.app" target="_blank" rel="noreferrer">
+                Open project
+              </a>
+            </article>
+
+            <article class="project-card">
+              <p class="project-kicker">03 / Network Analysis</p>
+              <h4>Traceroute Network Parser</h4>
+              <p>
+                Python parser for tcpdump traces that extracts router IP addresses
+                and RTTs from ICMP responses to expose topology and latency.
+              </p>
+              <p>Resume project • available on request</p>
+            </article>
+
+            <article class="project-card">
+              <p class="project-kicker">04 / Forensics</p>
+              <h4>USB Forensics Report</h4>
+              <p>
+                Autopsy and SleuthKit lab analysis used to recover metadata,
+                reconstruct activity timelines, and document findings.
+              </p>
+              <p>Resume project • available on request</p>
+            </article>
+
+            <article class="project-card">
+              <p class="project-kicker">05 / Cryptography</p>
+              <h4>ChopChop Attack Implementation</h4>
+              <p>
+                A Python implementation of the WEP ChopChop attack exploring CRC32
+                vulnerabilities, plaintext recovery, and wireless security.
+              </p>
+              <p>Resume project • available on request</p>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>© <span id="year"></span> Molly Sohaney</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
