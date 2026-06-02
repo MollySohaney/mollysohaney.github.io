@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Inter:wght@400;500;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -22,7 +22,7 @@
       <div class="bg-glow bg-glow-left"></div>
       <div class="bg-glow bg-glow-right"></div>
 
-      <header class="page-hero">
+      <header class="hero" id="home">
         <nav class="nav">
           <a class="brand" href="index.html" aria-label="Home">MS</a>
           <div class="nav-links">
@@ -34,128 +34,147 @@
           </div>
         </nav>
 
-        <div class="page-hero-grid">
+        <div class="hero-grid">
           <section class="hero-copy">
-            <p class="badge">Cybersecurity Analyst • UGA • U.S. Citizen</p>
-            <h1>ABOUT</h1>
+            <h1>About</h1>
             <p class="lede">
-              I’m a University of Georgia computer science student specializing
-              in computer forensics, cryptography, and system security. I like
-              work that blends technical depth with clear communication.
+              I am a motivated cybersecurity student with hands-on experience in
+              network analysis, penetration testing, and digital forensics. My goal
+              is to join a security team where I can keep learning, investigate real
+              problems, and contribute useful analysis from day one.
             </p>
-            <div class="hero-actions">
-              <a class="button button-primary" href="projects.html">View projects</a>
-              <a class="button button-secondary" href="contact.html">Contact me</a>
-            </div>
           </section>
-
-          <aside class="hero-panel" aria-label="About summary">
-            <div class="panel-topbar">
-              <span class="status-dot"></span>
-              <span>PROFILE SUMMARY</span>
-            </div>
-            <div class="panel-card">
-              <p class="panel-kicker">Focus</p>
-              <h2>Forensics, detection, and security analysis</h2>
-              <p>
-                I am building a cybersecurity career with hands-on lab work,
-                evidence-driven analysis, and a strong interest in defensive
-                operations.
-              </p>
-            </div>
-            <div class="panel-stat-grid">
-              <div class="panel-stat">
-                <span>LOCATION</span>
-                <strong>Atlanta, GA</strong>
-              </div>
-              <div class="panel-stat">
-                <span>PROGRAM</span>
-                <strong>B.S. Computer Science, UGA</strong>
-              </div>
-              <div class="panel-stat">
-                <span>TRACK</span>
-                <strong>Cybersecurity &amp; Privacy Certificate</strong>
-              </div>
-            </div>
-          </aside>
         </div>
       </header>
 
       <main>
-        <section class="section about">
+        <section class="section">
           <div class="section-heading">
-            <p class="eyebrow">Background</p>
-            <h3>Security work that is practical, clear, and grounded.</h3>
+            <h3>Education</h3>
           </div>
-          <p>
-            I am a motivated cybersecurity student with hands-on experience in
-            network analysis, penetration testing, and digital forensics. My goal
-            is to join a security team where I can keep learning, investigate real
-            problems, and contribute useful analysis from day one.
-          </p>
+          <div class="content-grid">
+            <article class="content-card education-primary">
+              <p class="card-label">University of Georgia</p>
+              <h4>B.S. Computer Science</h4>
+              <p class="minor-line">Minor in Cognitive Science</p>
+              <p class="card-date">2022 - 2025</p>
+            </article>
+            <article class="content-card">
+              <p class="card-label">UGA Certificates</p>
+              <div class="mini-stack">
+                <div class="mini-box">
+                  <h4>Cybersecurity &amp; Privacy</h4>
+                </div>
+                <div class="mini-box">
+                  <h4>Data Science</h4>
+                </div>
+              </div>
+            </article>
+            <article class="content-card">
+              <p class="card-label">Relevant Coursework</p>
+              <div class="course-list">
+                <span>Operating Systems</span>
+                <span>Computer Networks</span>
+                <span>Cryptology</span>
+                <span>Cybersecurity</span>
+                <span>Computer Forensics</span>
+                <span>Data Security &amp; Privacy</span>
+              </div>
+            </article>
+          </div>
         </section>
 
         <section class="section">
           <div class="section-heading">
-            <p class="eyebrow">Education &amp; Skills</p>
-            <h3>Academic background and technical toolkit.</h3>
+            <h3>Skills</h3>
           </div>
           <div class="content-grid">
             <article class="content-card">
-              <p class="card-label">Education</p>
-              <h4>University of Georgia</h4>
-              <p>B.S. Computer Science, 2022 - 2025</p>
-              <p>Minor in Cognitive Science</p>
-              <p>UGA Certificates: Cybersecurity &amp; Privacy, Data Science</p>
-              <p>
-                Relevant coursework: Operating Systems, Computer Networks,
-                Cryptology, Cybersecurity, Computer Forensics, Data Security &amp;
-                Privacy
-              </p>
+              <p class="card-label">Languages</p>
+              <div class="course-list">
+                <span>Java</span>
+                <span>Python</span>
+                <span>C</span>
+                <span>SQL (MySQL)</span>
+                <span>Assembly Language</span>
+                <span>HTML</span>
+                <span>Unix</span>
+                <span>JavaScript</span>
+                <span>Kotlin</span>
+              </div>
             </article>
             <article class="content-card">
-              <p class="card-label">Skills</p>
-              <h4>Languages and tools</h4>
-              <p>
-                Java, Python, C, SQL (MySQL), Assembly Language, HTML, Unix,
-                JavaScript
-              </p>
-              <p>
-                Security tools: Wireshark, Autopsy, Docker, Chronicle, SleuthKit,
-                Volatility
-              </p>
+              <p class="card-label">Tools</p>
+              <div class="course-list">
+                <span>Wireshark</span>
+                <span>Autopsy</span>
+                <span>Docker</span>
+                <span>Chronicle</span>
+                <span>SleuthKit</span>
+                <span>Volatility</span>
+                <span>Elastic</span>
+                <span>Kibana</span>
+                <span>Android Studio</span>
+              </div>
             </article>
             <article class="content-card">
-              <p class="card-label">Areas</p>
-              <h4>Where I like to work</h4>
-              <p>Cryptography, forensics, network tracing, and defensive analysis.</p>
-              <p>Clean technical writing that makes findings easy to follow.</p>
+              <p class="card-label">Security Concepts</p>
+              <div class="course-list security-concepts-list">
+                <span>Log &amp; Event Analysis</span>
+                <span>SIEM Management</span>
+                <span>IAM</span>
+                <span>MITRE ATT&amp;CK</span>
+                <span>Cryptography</span>
+                <span>Forensics</span>
+                <span>Network Tracing</span>
+              </div>
             </article>
           </div>
         </section>
 
-        <section class="section experience">
+        <section class="section">
           <div class="section-heading">
-            <p class="eyebrow">Experience</p>
-            <h3>Roles and programs that shaped my approach.</h3>
+            <h3>Certificates</h3>
           </div>
-          <div class="timeline">
-            <article class="timeline-item">
-              <div class="timeline-meta">
-                <span>January 2025</span>
-                <span>Mastercard Cybersecurity Virtual Experience Program</span>
-              </div>
+          <div class="content-grid">
+            <article class="content-card cert-card">
+              <p class="card-label">CompTIA</p>
+              <h4>Security+</h4>
+              <p>November 2025</p>
+              <a href="https://cp.certmetrics.com/comptia/en/public/verify/credential/c3a8442ef8064505ae037ae07c582913" target="_blank" rel="noreferrer">See Credentials</a>
+            </article>
+            <article class="content-card cert-card">
+              <p class="card-label">Google</p>
+              <h4>Google Cybersecurity Certificate</h4>
+              <p>Coursera, 2024</p>
+              <a href="https://www.coursera.org/account/accomplishments/specialization/80JGGHZIOFVG" target="_blank" rel="noreferrer">See Credentials</a>
+            </article>
+            <article class="content-card cert-card">
+              <p class="card-label">TEEZ</p>
+              <h4>Using the Comm CS Maturity Model to Develop a CS Program</h4>
+              <p>November 2024</p>
+              <a href="https://drive.google.com/file/d/1YkLOYVTi0n8lNS38AJa7HWtKmxspAu9D/view?usp=share_link" target="_blank" rel="noreferrer">See Credentials</a>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-heading">
+            <h3>Experience</h3>
+          </div>
+          <div class="content-grid">
+            <article class="content-card exp-card">
+              <p class="card-label">January 2025</p>
+              <h4>Mastercard Cybersecurity Virtual Experience Program</h4>
               <p>
                 Completed a job simulation on Mastercard’s Security Awareness
                 Team, helped identify and report phishing threats, and assessed
                 where more robust security training was needed.
               </p>
             </article>
-            <article class="timeline-item">
-              <div class="timeline-meta">
-                <span>2022 - 2023</span>
-                <span>Software Developer, BeyondFech.com</span>
-              </div>
+            <article class="content-card exp-card">
+              <p class="card-label">2022 - 2023</p>
+              <h4>Software Developer, BeyondFech.com</h4>
               <p>
                 Built Java automation with Selenium and TestNG, wrote complex SQL
                 queries, and created data extraction templates with Tesseract OCR.
@@ -164,30 +183,35 @@
           </div>
         </section>
 
-        <section class="section">
+        <section class="section clubs-section">
           <div class="section-heading">
-            <p class="eyebrow">Certifications, Clubs, and Competitions</p>
-            <h3>Additional context for recruiters.</h3>
+            <h3>Clubs &amp; Competitions</h3>
           </div>
           <div class="content-grid">
             <article class="content-card">
-              <p class="card-label">Certificates</p>
-              <h4>Credentials</h4>
-              <p>Google Cybersecurity Certificate, Coursera, 2024</p>
-              <p>TEEZ’s Using the Comm CS Maturity Model to Develop a CS Program, 2024</p>
-              <p>CompTIA Security+, November 2025</p>
-            </article>
-            <article class="content-card">
-              <p class="card-label">Leadership</p>
-              <h4>Clubs and activities</h4>
-              <p>Technology Student Association Treasurer, 2019 - 2022</p>
-              <p>Society for Cyber Security, The Hack Pack, and DevDogs</p>
+              <p class="card-label">Clubs</p>
+              <div class="mini-stack clubs-stack">
+                <div class="mini-box">
+                  <h4>Society for Cyber Security</h4>
+                </div>
+                <div class="mini-box">
+                  <h4>The Hack Pack</h4>
+                </div>
+                <div class="mini-box">
+                  <h4>DevDogs</h4>
+                </div>
+              </div>
             </article>
             <article class="content-card">
               <p class="card-label">Competitions</p>
-              <h4>Hands-on practice</h4>
-              <p>UGAHacks X security-aware web app with authentication and database management.</p>
-              <p>CTF practice in MD5 cracking, password recovery, and network traffic analysis.</p>
+              <div class="mini-stack clubs-stack">
+                <div class="mini-box">
+                  <h4>UGAHacks X</h4>
+                </div>
+                <div class="mini-box">
+                  <h4>World-wide CTFs</h4>
+                </div>
+              </div>
             </article>
           </div>
         </section>
