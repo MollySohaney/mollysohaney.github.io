@@ -22,7 +22,7 @@
       <div class="bg-glow bg-glow-left"></div>
       <div class="bg-glow bg-glow-right"></div>
 
-      <header class="page-hero">
+      <header class="hero" id="home">
         <nav class="nav">
           <a class="brand" href="index.html" aria-label="Home">MS</a>
           <div class="nav-links">
@@ -34,100 +34,52 @@
           </div>
         </nav>
 
-        <div class="page-hero-grid">
+        <div class="hero-grid">
           <section class="hero-copy">
-            <p class="badge">CTF Notes • Security Breakdowns • Technical Writing</p>
-            <h1>WRITEUPS</h1>
+            <h1>Writeups</h1>
             <p class="lede">
-              I use this space for CTF breakdowns, investigation notes, and short
-              security posts that explain both the tooling and the thought process.
-            </p>
-            <div class="hero-actions">
-              <a class="button button-primary" href="https://mollysohaney.hashnode.dev" target="_blank" rel="noreferrer">Open Hashnode</a>
-              <a class="button button-secondary" href="projects.html">View projects</a>
-            </div>
-          </section>
-
-          <aside class="hero-panel" aria-label="Writeups summary">
-            <div class="panel-topbar">
-              <span class="status-dot"></span>
-              <span>TECHNICAL WRITEUPS</span>
-            </div>
-            <div class="panel-card">
-              <p class="panel-kicker">Goal</p>
-              <h2>Show how I think through problems</h2>
-              <p>
-                Clear writeups make it easier for recruiters and teams to see how
-                I approach a challenge, document evidence, and explain the result.
-              </p>
-            </div>
-            <div class="panel-stat-grid">
-              <div class="panel-stat">
-                <span>FORMAT</span>
-                <strong>Step-by-step CTF and lab breakdowns</strong>
-              </div>
-              <div class="panel-stat">
-                <span>STYLE</span>
-                <strong>Compact, technical, and easy to follow</strong>
-              </div>
-              <div class="panel-stat">
-                <span>FOCUS</span>
-                <strong>Forensics, cryptography, and network analysis</strong>
-              </div>
-            </div>
-          </aside>
-        </div>
-      </header>
-
-      <main>
-        <section class="section split">
-          <div class="section-heading">
-            <p class="eyebrow">Hashnode</p>
-            <h3>Visit the writeups archive.</h3>
-          </div>
-          <div class="blog-card">
-            <p>
               This is where I publish CTF writeups and security notes. The page is
               useful for showing methodology, technical communication, and how I
               investigate a problem from start to finish.
             </p>
-            <a href="https://mollysohaney.hashnode.dev" target="_blank" rel="noreferrer">
-              Go to the writeups page
+            <div class="hero-actions">
+              <a class="button button-primary" href="https://mollysohaney.hashnode.dev" target="_blank" rel="noreferrer">Open Hashnode</a>
+            </div>
+          </section>
+        </div>
+      </header>
+
+      <main>
+        <section class="section writeups-section">
+          <div class="section-heading">
+            <a
+              class="blog-home-link section-title-link"
+              href="https://mollysohaney.hashnode.dev"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h3>The Flag Vault</h3>
             </a>
           </div>
-        </section>
+          <a
+            class="series-card"
+            href="https://mollysohaney.hashnode.dev/series/metactf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span class="card-label">Series</span>
+            <strong>MetaCTF</strong>
+          </a>
 
-        <section class="section">
-          <div class="section-heading">
-            <p class="eyebrow">Topics</p>
-            <h3>Common themes in the writeups.</h3>
-          </div>
-          <div class="content-grid">
-            <article class="content-card">
-              <p class="card-label">Cryptography</p>
-              <h4>Challenge analysis</h4>
-              <p>
-                Breakdowns of hashing, plaintext recovery, and other crypto-related
-                CTF work.
-              </p>
-            </article>
-            <article class="content-card">
-              <p class="card-label">Network analysis</p>
-              <h4>Traffic and traces</h4>
-              <p>
-                Writeups that inspect packets, traceroutes, and other network
-                artifacts to understand what happened.
-              </p>
-            </article>
-            <article class="content-card">
-              <p class="card-label">Forensics</p>
-              <h4>Artifacts and timelines</h4>
-              <p>
-                Evidence-based notes that reconstruct user activity and document the
-                reasoning behind each finding.
-              </p>
-            </article>
-          </div>
+          <a
+            class="series-card"
+            href="https://mollysohaney.hashnode.dev/series/bsidessf-2026"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span class="card-label">Series</span>
+            <strong>BSidesSF 2026</strong>
+          </a>
         </section>
       </main>
 
